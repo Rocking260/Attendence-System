@@ -11,10 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <!--  <activity
+         <activity
                   android:name=".Main"
                   android:label="@string/title_activity_main"
-                  android:theme="@style/AppTheme.NoActionBar"></activity>-->
+                  android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".Login"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
@@ -24,7 +24,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
-
 </manifest>
