@@ -1,8 +1,8 @@
 package com.programmingworlds.attendencesystem;
 
+import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -20,11 +20,11 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 if(validate())
                 {
+
                     Toast.makeText(getApplicationContext(),"LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
                 }else
                 {
-                  //  Snackbar.make(v, "INVALID LOGIN CREDENTIAL", Snackbar.LENGTH_LONG)
-                           // .show();
+
                 }
 
             }
